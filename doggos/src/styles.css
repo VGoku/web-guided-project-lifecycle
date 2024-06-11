@@ -2,3 +2,18 @@
     font-family: sans-serif;
     text-align: center;
   }  
+
+  body {
+    background-color: rgb(30, 131, 164);
+  }
+
+  /* App.css (or any other CSS file you are using for styling) */
+.image-container {
+  display: flex;
+  flex-wrap: wrap; /* Wrap the images to the next line if they exceed the container width */
+  justify-content: center; /* Center the images horizontally */
+}
+
+.image-container img {
+  margin: 5px; /* Add some margin between the images */
+}
